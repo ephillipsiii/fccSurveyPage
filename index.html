@@ -32,7 +32,7 @@
                 </div><br>
                 <div id="surveyDropDown">
                     <select id="dropdown" name="currentEmployment" class="dropdown">    
-                        <option disabled value>Select an option</option>
+                        <option disabled selected>Select an option</option>
                         <option value="studentk12">Student (K-12)</option>
                         <option value="studentHigherEd">Student (Higher Ed)</option>
                         <option value="studentk12PartTime">Student (K-12, part-time employed)</option>
@@ -42,9 +42,44 @@
                         <option value="full-time">Full-time</option>
                         <option value="unemployed">Unemployed</option>
                     </select>
+                </div><br>
+                <div class="labels">
+                    <div id="radioLabel">
+                        <label id="radio-label" for="radio">What is your platform of choice?</label>
+                    </div>
                 </div>
                 <div id="radioButtons">
-                    <label for=""  
+                    <ul style="list-style: none">
+                        <li class="radio"><label>Playstation 4<input name="radio-buttons" value="1"  type="radio" class="platform-choice"></label></li>
+                        <li class="radio"><label>Xbox One<input name="radio-buttons" value="2"  type="radio" class="platform-choice"></label></li>
+                        <li class="radio"><label>PC<input name="radio-buttons" value="3"  type="radio" class="platform-choice"></label></li>
+                        <li class="radio"><label>Retro<input name="radio-buttons" value="4"  type="radio" class="platform-choice"></label></li>
+                    </ul>
+                </div>
+                <div class="labels">
+                    <div id="checkbox-label">
+                        <label for="game-genres">What types of games to you prefer to play?<br> * Check all that apply</label>
+                    </div>
+                </div>
+                <div id="game-genres">
+                    <ul id="games" style="list-style: none;">
+                        <li class="checkbox"><label><input name="game-type" value="1" type="checkbox" class="userRatings">RPG's</label></li>
+                        <li class="checkbox"><label><input name="game-type" value="2" type="checkbox" class="userRatings">FPS's</label></li>
+                        <li class="checkbox"><label><input name="game-type" value="3" type="checkbox" class="userRatings">MMORPG's</label></li>
+                        <li class="checkbox"><label><input name="game-type" value="4" type="checkbox" class="userRatings">Action/Adventure</label></li>
+                        <li class="checkbox"><label><input name="game-type" value="5" type="checkbox" class="userRatings">Puzzle</label></li>
+                        <li class="checkbox"><label><input name="game-type" value="6" type="checkbox" class="userRatings">Platformers</label></li>
+                    </ul>
+                </div><br>
+                <div class="labels">
+                    <div id="text-box">
+                        <label for="text-box">Tell us roughly how many hours a week you play, and why you play video games.</label>
+                    </div>
+                </div><br>
+                <div class="text">
+                    <textarea id="textBox" class="input-field" name="comment" placeholder="Enter your text here"></textarea>
+                </div><br>
+                <button id="submit" type="submit">Submit</button>
             </form> 
         </div> 
     </main> 
