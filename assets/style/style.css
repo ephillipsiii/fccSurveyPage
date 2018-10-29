@@ -1,0 +1,23 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.container {
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 3%;
+    width: 50%;
+    margin: auto;
+    
+   
+}
+
+.labels {
+    text-align: right;
+}
+
