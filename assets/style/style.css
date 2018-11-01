@@ -7,21 +7,73 @@ h1 {
     text-align: center;
     color: white;
 }
+
+#description {
+    text-align: center;
+}
 .container {
     background-color: lightblue;
-    text-align: center;
     padding-top: 3%;
     width: 50%;
-    margin: auto;
-    
-   
+    margin: auto;  
+     
 }
 
-.labels {
-    text-align: left;
+#submit {
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 20px;
+    border: 0px solid;
+    
+  }
+
+.input-field{
+    width: 200px;
+    margin-top: 4%;
 }
+.labels {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    
+    width: 48%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 
 .right-side{
-    text-align: right;
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+    
 }
+
+.text {
+    display: inline-block;
+}
+
+#textBox {
+    height: 100px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;  
+    display: inline-block    
+}
+
+.radio .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+
 
