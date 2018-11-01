@@ -18,6 +18,10 @@ h1 {
 }
 
 .labels {
+    text-align: left;
+}
+
+.right-side{
     text-align: right;
 }
 
